@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Edufecta Documentation',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/educampus.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -27,8 +27,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'EDU Media Digital', // Usually your GitHub org/user name.
+  projectName: 'Dokumentasi Edufecta', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -81,10 +81,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Home',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Edu Campus Logo',
+          src: 'img/educampus.png',
         },
         items: [
           {
@@ -108,25 +108,45 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentation',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Link Penting',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Sistem Informasi Akademik',
+                href: 'http://crp.edu.educampus.id/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Sistem Layanan Mahasiswa',
+                href: 'http://student.edu.educampus.id/',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Sistem Layanan Dosen',
+                href: 'http://lecturer.edu.educampus.id/',
+              },
+               {
+                label: 'Sistem Layanan Alumni',
+                href: 'http://alumni.edu.educampus.id/',
+              },
+               {
+                label: 'Penerimaan Mahasiswa Baru',
+                href: 'http://pmb.edu.educampus.id/',
+              },
+               {
+                label: 'Sistem Manajemen Pegawai',
+                href: 'http://sdm.edu.educampus.id/',
+              },
+               {
+                label: 'Manajemen Akutansi',
+                href: 'http://accounting.edu.educampus.id/',
+              },
+               {
+                label: 'Sistem Pembelajaran Online',
+                href: 'http://elearning.edu.educampus.id/',
               },
             ],
           },

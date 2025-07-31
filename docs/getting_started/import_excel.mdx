@@ -2,43 +2,47 @@
 sidebar_position: 1
 ---
 
-# 1) Memulai Edufecta dengan import data dari excel
+# 1) Memulai Edufecta dengan import data dari excel 
 
-1. Masuk ke Halaman login page
+## 1. Masuk ke Halaman login page
 
-Menggunakan browser yang anda pilih, akses link di bawah ini :
+
+a). Menggunakan browser yang anda pilih, akses link di bawah ini :
+
 ```js
 https://educampus.id/login
 ```
+
 <img
   src="/img/edufecta_Screenshot/login_page.png"
   alt="Login Page"
   style={{
-    border: '2px solid black',
+    border: '1px solid rgb(221, 226, 230)',
     borderRadius: '4px',
     maxWidth: '100%',
-    height: 'auto'
+    height: 'auto',
+    marginBottom: '50px'
   }}
 />
 
-2. Input Username dan Password
-
-<img
+b). Input Username dan Password, kemudian klik Login
+  <img
   src="/img/edufecta_Screenshot/filled_login_page.png"
   alt="Isi Username & Password"
   style={{
-    border: '2px solid black',
+    border: '1px solid rgb(221, 226, 230)',
     borderRadius: '4px',
     maxWidth: '100%',
     height: 'auto'
-  }}
-/>
+  }}/>
 
+## 2. Akses ke Sistem Informasi Akademik 
+Setelah berhasil melakukan Login, sistem akan mengalihkan ke halaman List Aplikasi. Pilih AIS Application (Sistem Informasi Akademik)
 <img
   src="/img/edufecta_Screenshot/list_aplikasi.png"
   alt="List Aplikasi"
   style={{
-    border: '2px solid black',
+    border: '1px solid rgb(221, 226, 230)',
     borderRadius: '4px',
     maxWidth: '100%',
     height: 'auto'
@@ -49,18 +53,20 @@ https://educampus.id/login
   src="/img/edufecta_Screenshot/klik_AIS.png"
   alt="Klik AIS"
   style={{
-    border: '2px solid black',
+    border: '1px solid rgb(221, 226, 230)',
     borderRadius: '4px',
     maxWidth: '100%',
     height: 'auto'
   }}
 />
 
+## 3. Masuk ke Menu Migrasi Data
+Klik **Migrasi Data**. Kemudian , klik **Import Data dari Excel**. 
 <img
   src="/img/edufecta_Screenshot/migrasi_excel/klik_migrasi.png"
   alt="Klik Migrasi"
   style={{
-    border: '2px solid black',
+    border: '1px solid rgb(221, 226, 230)',
     borderRadius: '4px',
     maxWidth: '100%',
     height: 'auto'
@@ -71,40 +77,54 @@ https://educampus.id/login
   src="/img/edufecta_Screenshot/migrasi_excel/klik_import_data.png"
   alt="Klik Import"
   style={{
-    border: '2px solid black',
+    border: '1px solid rgb(221, 226, 230)',
     borderRadius: '4px',
     maxWidth: '100%',
     height: 'auto'
   }}
 />
+
+
+## 4. Import Data
+a). Pada halaman ini, anda dapat menambah data baru dengan menggunakan template excel yang sebleumnya telah ada di sistem.
+Pilih salah satu data yang akan anda tambahkan. Selanjutnya, klik **`DOWNLOAD`** yang letaknya pada text "Template Excel".
+
+:::caution[Perhatian]
+Pada panduan ini, akan menggunakan `template_programstudi`. Anda dapat menggunakan lainnya, dengan langkah yang sama dengan panduan ini.
+:::
 
 <img
   src="/img/edufecta_Screenshot/migrasi_excel/page_import.png"
   alt="Halaman Import / Migrasi Data"
   style={{
-    border: '2px solid black',
+    border: '1px solid rgb(221, 226, 230)',
     borderRadius: '4px',
     maxWidth: '100%',
-    height: 'auto'
+    height: 'auto',
+    marginBottom: '50px'
   }}
 />
 
+b). Buka file excel yang telah di-download.
 <img
   src="/img/edufecta_Screenshot/migrasi_excel/klik_template.png"
   alt="Buka Template"
   style={{
-    border: '2px solid black',
+    border: '1px solid rgb(221, 226, 230)',
     borderRadius: '4px',
     maxWidth: '100%',
-    height: 'auto'
+    height: 'auto',
+    marginBottom: '50px'
   }}
 />
 
+
+c). Isi kolom yang kosong sesuai dengan nama kolom di atasnya. Jika sudah, simpan hasil perubahan pada excel.
 <img
   src="/img/edufecta_Screenshot/migrasi_excel/template_excel.png"
   alt="Template Excel"
   style={{
-    border: '2px solid black',
+    border: '1px solid rgb(221, 226, 230)',
     borderRadius: '4px',
     maxWidth: '100%',
     height: 'auto'
@@ -115,28 +135,32 @@ https://educampus.id/login
 
 
 
-:::caution
+:::danger[Perhatian]
 ![Template Excel](/img/edufecta_Screenshot/migrasi_excel/caution_excel.gif)
 <strong>Pastikan Anda telah memeriksa sheet bernama<em>"Tata Cara"</em>sebelum melanjutkan.</strong>
 Petunjuk penting seperti format data dan urutan langkah ada di sana.
 :::
 
+<br />
+
+d). Kembali ke aplikasi. Sekarang, klik `1. Choose File`. Kemudian, `2. pilih file` template yang sebelumnya telah dirubah. Jika sudah, klik `3. Open`
 <img
   src="/img/edufecta_Screenshot/migrasi_excel/upload.png"
   alt="Upload"
   style={{
-    border: '2px solid black',
+    border: '1px solid rgb(221, 226, 230)',
     borderRadius: '4px',
-    width: '1900px'
+    width: '1900px',
+    marginBottom: '50px'
   }}
 />
 
-
+e). Klik `Upload File`
 <img
   src="/img/edufecta_Screenshot/migrasi_excel/klik_upload.png"
   alt="Klik Upload"
   style={{
-    border: '2px solid black',
+    border: '1px solid rgb(221, 226, 230)',
     borderRadius: '4px',
     maxWidth: '100%',
     height: 'auto'
@@ -147,44 +171,54 @@ Petunjuk penting seperti format data dan urutan langkah ada di sana.
   src="/img/edufecta_Screenshot/migrasi_excel/berhasil.png"
   alt="Berhasil"
   style={{
-    border: '2px solid black',
+    border: '1px solid rgb(221, 226, 230)',
     borderRadius: '4px',
     maxWidth: '100%',
     height: 'auto'
   }}
 />
 
+## 5. Mengecek Apakah Data Sudah Berhasil Disimpan
+a). Untuk mengecek jika data yang ditambahkan telah masuk atau belum, Masuk ke menu CRP. Kemudian klik menu Data Master.
 <img
   src="/img/edufecta_Screenshot/migrasi_excel/data_mst.png"
   alt="Data Master"
   style={{
-    border: '2px solid black',
+    border: '1px solid rgb(221, 226, 230)',
     borderRadius: '4px',
     maxWidth: '100%',
-    height: 'auto'
+    height: 'auto',
+    marginBottom: '50px'
   }}
 />
 
+b). Karena pada panduan ini menggunakan Data Prodi, klik `Referensi Akademik`, kemudian klik `Fakultas & Prodi`.
 <img
   src="/img/edufecta_Screenshot/migrasi_excel/klik_dtmst.png"
   alt="Klik Menu"
   style={{
-    border: '2px solid black',
+    border: '1px solid rgb(221, 226, 230)',
     borderRadius: '4px',
     maxWidth: '100%',
-    height: 'auto'
+    height: 'auto',
+    marginBottom: '50px'
   }}
 />
 
+c). File telah berhasi ditambahkan.
 <img
   src="/img/edufecta_Screenshot/migrasi_excel/berhasil_add.png"
   alt="Berhasil Add"
   style={{
-    border: '2px solid black',
+    border: '1px solid rgb(221, 226, 230)',
     borderRadius: '4px',
     maxWidth: '100%',
     height: 'auto'
   }}
 />
 
+
+:::tip
+Anda bisa menggunakan panduan ini untuk melakukan migrasi data lainnya yang tersedia pada halaman Import Data
+:::
 

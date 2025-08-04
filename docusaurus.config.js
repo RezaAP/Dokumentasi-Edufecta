@@ -13,7 +13,7 @@ const config = {
   title: 'Edufecta Documentation',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/educampus.png',
-
+  
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
